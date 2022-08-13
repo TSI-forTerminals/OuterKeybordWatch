@@ -11,7 +11,7 @@ import SwiftUI
 struct OuterKeybordWatchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Content1View()
         }
     }
 }
