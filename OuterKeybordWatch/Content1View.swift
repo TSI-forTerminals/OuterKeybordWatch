@@ -49,16 +49,13 @@ struct Content2View: View {
     @ObservedObject var viewModel:Content2ViewModel
     
     var body: some View {
-        if viewModel.barcode == ""  {
-            VStack {
-                Text("ラベルが２つあっても読み込める？")
-                Text("Demo Root Controller access")
-            }
-            .onAppear {
-                print("Content2View: onAppear")
-            }
-        } else {
-            ContentView3(barcode: viewModel.barcode)
+        VStack {
+            Text("ラベルが２つあっても読み込める？")
+            Text("Demo Root Controller access")
+            Text(viewModel.barcode)
+        }
+        .onAppear {
+            print("Content2View: onAppear")
         }
     }
 }
@@ -111,25 +108,6 @@ class Content2ViewController: UIHostingController<Content2View> {
             return
         }
         buf += inKey
-    }
-}
-
-/// 画面3
-struct ContentView3: View {
-    @Environment(\.dismiss) private var dismiss
-    @State var barcode:String = ""
-    
-    var body: some View {
-        VStack {
-            Text("バーコード: " + barcode)
-            Text("-----------------")
-            Button("戻る") {
-                dismiss()
-            }
-        }
-        .onAppear {
-            print("ContentView3: onAppear")
-        }
     }
 }
 
