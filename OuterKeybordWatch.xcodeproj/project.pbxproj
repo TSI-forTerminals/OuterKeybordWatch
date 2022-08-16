@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		71C18DE7289B6578007C8013 /* OuterKeybordWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C18DE6289B6578007C8013 /* OuterKeybordWatchApp.swift */; };
-		71C18DE9289B6578007C8013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C18DE8289B6578007C8013 /* ContentView.swift */; };
 		71C18DEB289B657A007C8013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C18DEA289B657A007C8013 /* Assets.xcassets */; };
 		71C18DEE289B657A007C8013 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C18DED289B657A007C8013 /* Preview Assets.xcassets */; };
+		8EF2377E28ABE36000ED782F /* Content1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2377D28ABE36000ED782F /* Content1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71C18DE3289B6578007C8013 /* OuterKeybordWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OuterKeybordWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C18DE6289B6578007C8013 /* OuterKeybordWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterKeybordWatchApp.swift; sourceTree = "<group>"; };
-		71C18DE8289B6578007C8013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71C18DEA289B657A007C8013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71C18DED289B657A007C8013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EF2377D28ABE36000ED782F /* Content1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 		71C18DE5289B6578007C8013 /* OuterKeybordWatch */ = {
 			isa = PBXGroup;
 			children = (
+				8EF2377D28ABE36000ED782F /* Content1View.swift */,
 				71C18DE6289B6578007C8013 /* OuterKeybordWatchApp.swift */,
-				71C18DE8289B6578007C8013 /* ContentView.swift */,
 				71C18DEA289B657A007C8013 /* Assets.xcassets */,
 				71C18DEC289B657A007C8013 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C18DE9289B6578007C8013 /* ContentView.swift in Sources */,
+				8EF2377E28ABE36000ED782F /* Content1View.swift in Sources */,
 				71C18DE7289B6578007C8013 /* OuterKeybordWatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +267,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OuterKeybordWatch/Preview Content\"";
-				DEVELOPMENT_TEAM = KK8996U27J;
+				DEVELOPMENT_TEAM = S3HX2K8JJ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
